@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Prusty | Portfolio</title>
+    <meta name="description" content="Portfolio of Rahul Prusty, a First-Year Engineering Student & Aspiring Software Developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header id="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">RP.<span>dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero container active-section">
+            <div class="hero-content hidden">
+                <h2 class="greeting">Hello, world! I am</h2>
+                <h1 class="name">Rahul <span>Prusty</span></h1>
+                <h3 class="title">First-Year Engineering Student | <span class="gradient-text">Aspiring Software Developer</span></h3>
+                <p class="intro">
+                    I develop logic-based programs using C and Python, with a strong foundation in DBMS and problem solving.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about container">
+            <h2 class="section-title hidden">About <span>Me</span></h2>
+            <div class="about-content hidden">
+                <div class="about-image">
+                    <!-- Profile Placeholder (CSS styled) -->
+                    <div class="avatar-placeholder">
+                        <span>RP</span>
+                    </div>
+                </div>
+                <div class="about-text glass-card">
+                    <p>I am a first-year engineering student at Lovely Professional University, focused on building a strong foundation in software development.</p>
+                    <p>I have hands-on experience in C and Python programming, along with a good understanding of DBMS. My strengths include problem solving, writing structured programs, and understanding code deeply.</p>
+                    <p>I have built projects like a number guessing game and a student record system.</p>
+                    <p>Currently, I am learning Data Structures and Algorithms to write efficient and optimized code.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills container">
+            <h2 class="section-title hidden">My <span>Skills</span></h2>
+            <div class="skills-grid hidden">
+                <div class="skill-category glass-card">
+                    <h3><i class='bx bx-code-alt'></i> Programming</h3>
+                    <ul>
+                        <li><i class='bx bxl-c-plus-plus'></i> C</li>
+                        <li><i class='bx bxl-python'></i> Python</li>
+                        <li><i class='bx bxl-html5'></i> HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class='bx bx-brain'></i> Core Concepts</h3>
+                    <ul>
+                        <li><i class='bx bx-check-circle'></i> Pointers</li>
+                        <li><i class='bx bx-check-circle'></i> Arrays & Strings</li>
+                        <li><i class='bx bx-check-circle'></i> Functions & Recursion</li>
+                        <li><i class='bx bx-check-circle'></i> Basic Data Structures</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class='bx bx-data'></i> Database</h3>
+                    <ul>
+                        <li><i class='bx bx-server'></i> DBMS Fundamentals</li>
+                        <li><i class='bx bx-data'></i> SQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card">
+                    <h3><i class='bx bx-wrench'></i> Tools</h3>
+                    <ul>
+                        <li><i class='bx bx-code-block'></i> VS Code</li>
+                        <li><i class='bx bx-terminal'></i> GCC Compiler</li>
+                    </ul>
+                </div>
+                <div class="skill-category glass-card span-2">
+                    <h3><i class='bx bx-bulb'></i> Other Strengths</h3>
+                    <div class="tags">
+                        <span class="tag">Problem Solving</span>
+                        <span class="tag">Debugging</span>
+                        <span class="tag">Logical Thinking</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects container">
+            <h2 class="section-title hidden">Featured <span>Projects</span></h2>
+            <div class="projects-grid hidden">
+                
+                <div class="project-card glass-card">
+                    <div class="project-info">
+                        <h3>Number Guessing Game</h3>
+                        <p class="tech-stack"><i class='bx bxl-python'></i> Python</p>
+                        <ul class="project-details">
+                            <li>Random number generation</li>
+                            <li>User input handling</li>
+                            <li>Hint system (higher/lower)</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline" onclick="event.preventDefault();"><i class='bx bxl-github'></i> View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-info">
+                        <h3>Student Record System</h3>
+                        <p class="tech-stack"><i class='bx bxl-c-plus-plus'></i> C Programming</p>
+                        <ul class="project-details">
+                            <li>Add, search, delete operations</li>
+                            <li>File handling integration</li>
+                            <li>Structured data using structs</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-outline" onclick="event.preventDefault();"><i class='bx bxl-github'></i> View Code</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications container">
+            <h2 class="section-title hidden">My <span>Certifications</span></h2>
+            <div class="certs-grid hidden">
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bx-award'></i></div>
+                    <div class="cert-details">
+                        <h3>Introduction to C Programming</h3>
+                        <p class="issuer">Example Academy</p>
+                        <p class="date">Oct 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bx-award'></i></div>
+                    <div class="cert-details">
+                        <h3>Python for Beginners</h3>
+                        <p class="issuer">Tech Institute</p>
+                        <p class="date">Dec 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bx-award'></i></div>
+                    <div class="cert-details">
+                        <h3>Database Fundamentals</h3>
+                        <p class="issuer">Learning Platform</p>
+                        <p class="date">Feb 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact container">
+            <h2 class="section-title hidden">Get In <span>Touch</span></h2>
+            <div class="contact-wrapper hidden">
+                <div class="contact-info glass-card">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing tech, programming, or new opportunities.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class='bx bxl-github'></i></a>
+                        <a href="#" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="social-icon"><i class='bx bx-envelope'></i></a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Rahul Prusty. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
